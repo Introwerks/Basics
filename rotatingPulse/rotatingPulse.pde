@@ -6,14 +6,15 @@ void setup() {
   size(500, 500, P3D);
   background(0);
   smooth();
+  rectMode(CENTER);
+
 }
 
 void draw() {
   pushMatrix();
   translate(0, 0, -500);
-  rectMode(CENTER);
   noStroke();
-  fill(0, 40);
+  fill(0, 70);
   rect(0, 0, width*4, height*4);
   popMatrix();
 
