@@ -1,4 +1,5 @@
 float radius = 200;
+
 float x, y;
 float theta = 0;
 float theta_vel =0;
@@ -22,11 +23,12 @@ void draw() {
   stroke(255);
   strokeWeight(0.5);
   
-  translate(width/2, height/2);
+  
   
   rotX = radius * cos(theta);
   rotY = radius * sin(theta);
   
+  translate(width/2, height/2);
   line(0, rotY, rotX, 0);
   line(0, rotY/2, 0, rotY);
   line(0, rotY/2, rotX, 0);
