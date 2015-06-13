@@ -1,4 +1,4 @@
-float theta, theta_vel, theta_acc, extZ;
+float theta, theta_vel, extZ;
 
 void setup() {
   size(500, 500, P3D);
