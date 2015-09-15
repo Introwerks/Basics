@@ -3,7 +3,7 @@ void setup() {
 }
 
 void draw() {
-  background(0, 0, 0);
+  background(0);
   translate(width/2, height/2);
   noFill();
   stroke(255, 45);
