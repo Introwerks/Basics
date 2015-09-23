@@ -2,7 +2,6 @@ float theta;
 
 void setup() {
   size(500, 500);
-  rectMode(CENTER);
 }
 
 void draw() {
